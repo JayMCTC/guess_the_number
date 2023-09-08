@@ -46,6 +46,13 @@ def check_guess(guess, secret):
 
 
 def main():
+    # Welcome Message
+    # Added a Welcome message string to customize it if wanted
+    Welcome_Message = "Welcome to Guess My Number!"
+    print(Welcome_Message)
+    # This will print out stars "*" times the length of the welcome message
+    print("*" * len(Welcome_Message))
+
     # This while loop allows the game to be re-run
 
     while True:
